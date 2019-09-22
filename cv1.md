@@ -24,8 +24,7 @@ badges at HTML Academy.
 
 Examples of my code:
 
-            <code>
-              <pre>
+```
             &lt!DOCTYPE html&gt
             &lthtml&gt
               &lthead&gt
@@ -56,10 +55,7 @@ Examples of my code:
                  &lt/header&gt
                 &lt/body&gt
               &lt/html&gt
-        </pre>
-          </code>
-                 <code>
-            <pre>
+              
             body {
               margin: 0;
               padding: 0;
@@ -131,4 +127,4 @@ Examples of my code:
               width: 150px;
               text-decoration: none;
               font-weight: bold;
-            }</pre></code>
+            }```
