@@ -19,3 +19,43 @@
         from HTML Academy</a></p>
         <p>Examples of my code:</p>
         </div>
+       badges at HTML Academy.</p>
+        <p><a href="https://htmlacademy.ru/assets/courses/309/project-state-final.zip" target="_blank">Page 
+        from HTML Academy</a></p>
+        <p>Examples of my code:</p>
+        </div>
+        <div class="code_example">
+            <code>
+              <pre>
+            &lt!DOCTYPE html&gt
+            &lthtml&gt
+              &lthead&gt
+                &ltmeta charset="UTF-8"&gt
+                &lttitle&gtExample&lt/title&gt
+                &ltlink rel="stylesheet" href="css/styles.css"&gt
+              &lt/head&gt
+              &ltbody&gt
+                &ltheader&gt
+                  &ltdiv class="container"&gt
+                    &ltdiv class="clearfix"&gt
+                      &ltimg src="img/1.png" alt="logo" class="logo"&gt
+                      &ltnav&gt
+                        &ltul class="menu"&gt
+                          &ltli&gt&lta href="#"&gtCases&lt/a &gt &lt/li &gt
+                          &ltli>&lta href="#"&gtPrices&lt/a&gt&lt/li&gt
+                          &ltli>&lta href="#"&gtAbout us&lt/a&gt&lt/li&gt
+                          &ltli>&lta href="#"&gtContacts&lt/a&gt&lt/li&gt
+                        &lt/ul&gt
+                      &lt/nav&gt
+                    &lt/div&gt
+                    &ltdiv class="greeting"&gt
+                      &lth1&gtWelcome to Miracle Management&lt/h1&gt
+                      &lth2&gtMade your work even more effective!&lt/h2&gt
+                    &lt/div
+                       &lta class="button" href="#"&gtKnow more&lt/a&gt
+                    &lt/div&gt
+                 &lt/header&gt
+                &lt/body&gt
+              &lt/html&gt
+        </pre>
+          </code>
