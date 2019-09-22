@@ -25,20 +25,20 @@ badges at HTML Academy.
 Examples of my code:
 
 ```
-            &lt!DOCTYPE html&gt
-            &lthtml&gt
-              &lthead&gt
-                &ltmeta charset="UTF-8"&gt
-                &lttitle&gtExample&lt/title&gt
-                &ltlink rel="stylesheet" href="css/styles.css"&gt
-              &lt/head&gt
-              &ltbody&gt
-                &ltheader&gt
-                  &ltdiv class="container"&gt
-                    &ltdiv class="clearfix"&gt
-                      &ltimg src="img/1.png" alt="logo" class="logo"&gt
-                      &ltnav&gt
-                        &ltul class="menu"&gt
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <meta charset="UTF-8">
+                <title>Example</title>
+                <link rel="stylesheet" href="css/styles.css">
+              </head>
+              <body>
+                <header>
+                  <div class="container">
+                    <div class="clearfix">
+                      <img src="img/1.png" alt="logo" class="logo">
+                      <nav>
+                        <ul class="menu">
                           &ltli&gt&lta href="#"&gtCases&lt/a &gt &lt/li &gt
                           &ltli>&lta href="#"&gtPrices&lt/a&gt&lt/li&gt
                           &ltli>&lta href="#"&gtAbout us&lt/a&gt&lt/li&gt
