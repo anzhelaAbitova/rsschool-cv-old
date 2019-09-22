@@ -23,6 +23,7 @@ badges at HTML Academy.
 [Page from HTML Academy](https://htmlacademy.ru/assets/courses/309/project-state-final.zip)
 
 Examples of my code:
+
             <code>
               <pre>
             &lt!DOCTYPE html&gt
