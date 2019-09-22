@@ -19,11 +19,6 @@
         from HTML Academy</a></p>
         <p>Examples of my code:</p>
         </div>
-       badges at HTML Academy.</p>
-        <p><a href="https://htmlacademy.ru/assets/courses/309/project-state-final.zip" target="_blank">Page 
-        from HTML Academy</a></p>
-        <p>Examples of my code:</p>
-        </div>
         <div class="code_example">
             <code>
               <pre>
@@ -59,3 +54,79 @@
               &lt/html&gt
         </pre>
           </code>
+                 <code>
+            <pre>
+            body {
+              margin: 0;
+              padding: 0;
+              font-family: Arial, sans-serif;
+              color: #222222;
+              box-sizing: border-box;
+            }
+            
+            header {
+              background: url(../img/background_header.jpg) no-repeat center top /cover;
+              height: 100vh;
+            }
+            
+            
+            .logo {
+              margin-top: 50px;
+              margin-left: 50px;
+              width: 70px;
+              height: 55px;
+            }
+            
+            .clearfix:after {
+              content:'';
+              display: table;
+              width: 100%;
+              clear: both;
+            }
+            
+            nav {
+              float: right;
+              margin-top: 50px;
+            }
+            
+            .menu li {
+              float: left;
+              margin-right: 50px;
+              display: block;
+            }
+            
+            .menu a {
+              color: #f6f6f6;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            .greeting h1 {
+              font-size: 70px;
+              color: #f6f6f6;
+              text-align: center;
+              margin-top: 150px;
+            }
+            
+            
+            .greeting h2 {
+              font-size: 40px;
+              color: #f6f6f6;
+              text-align: center;
+              font-weight: lighter;
+            }
+                        
+            .button {
+              color: #ffffff;
+              background-color: #a0522d;
+              text-align: center;
+              border-radius: 3px;
+              padding: 8px 10px;
+              margin: 0 auto;
+              display: block;
+              width: 150px;
+              text-decoration: none;
+              font-weight: bold;
+            }</pre></code>
+          </div>
+
