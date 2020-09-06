@@ -1,5 +1,5 @@
-#My resume 
-##Anzhela Abitova 
+# My resume 
+## Anzhela Abitova 
         
 My Email anzhela.abitova@mail.ru, telephone number +79608138825, my profiles on 
 [VK](https://vk.com/id230631255"), [Facebook](https://www.facebook.com/abitovaanzela").
@@ -25,5 +25,32 @@ badges at HTML Academy.
 Examples of my code:
 ```javascript
 const $getElById = (id) => document.getElementById(id);
-alert(s);
+const random = (num) => Math.ceil(Math.random() * num);
+
+function tapCounting(btn, tapLimit){
+              let count = 0;
+              return function(){
+                  count++;
+                  btn.querySelector('span').innerText = tapLimit - count;
+                  if (count >= tapLimit) {
+                      btn.disabled = true;
+                  }
+                  return count;
+              }
+          }
+
+          function minmaxDamage(item) {
+              let damageArr = [item.maxDamage, item.minDamage];
+              return damageArr[random(1)];
+          }
+          let selectorsM = {
+              selectors(name) {
+                  this.elHP = document.getElementById(`health-${name}`);
+                  this.elProgressbar = document.getElementById(`progressbar-${name}`);
+                  this.namePlayer = document.getElementById(`name-${name}`);
+                  this.imgPlayer = document.getElementById(`img-${name}`);
+}
+}
+
+export {$getElById, random, tapCounting, minmaxDamage, selectorsM };
 ```
