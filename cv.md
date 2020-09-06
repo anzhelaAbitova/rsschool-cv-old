@@ -55,3 +55,43 @@ let selectorsM = {
 
 export {$getElById, random, tapCounting, minmaxDamage, selectorsM };
 ```
+
+```css
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body {
+	font-family:"Roboto", "Arial", sans-serif;
+	max-width: 99vw;
+	height: 100%;
+	overflow-x: hidden;
+	position:relative;
+	line-height:1.5;
+}
+
+h1 {
+	color:#131313;
+	font-size:2.5rem;
+	margin: 1rem auto;
+	text-align:center;
+}
+
+h2 {
+	color:#131313;
+	margin: 1rem auto;
+	text-align:center;
+}
+
+header {
+	position:sticky;
+}
+
+header nav,
+footer nav {
+	background-color:#008B8B;
+	color:#fff;
+}
+```
