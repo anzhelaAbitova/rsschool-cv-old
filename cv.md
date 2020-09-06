@@ -23,7 +23,7 @@
         [Page from HTML Academy](https://htmlacademy.ru/assets/courses/309/project-state-final.zip")
         
         Examples of my code:
-          ```
+          ```javascript
           const $getElById = (id) => document.getElementById(id);
           const random = (num) => Math.ceil(Math.random() * num);
           function tapCounting(btn, tapLimit){
