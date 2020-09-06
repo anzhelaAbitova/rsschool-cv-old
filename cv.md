@@ -26,7 +26,6 @@
           ```
           const $getElById = (id) => document.getElementById(id);
           const random = (num) => Math.ceil(Math.random() * num);
-
           function tapCounting(btn, tapLimit){
               let count = 0;
               return function(){
@@ -38,19 +37,5 @@
                   return count;
               }
           }
-
-          function minmaxDamage(item) {
-              let damageArr = [item.maxDamage, item.minDamage];
-              return damageArr[random(1)];
-          }
-          let selectorsM = {
-              selectors(name) {
-                  this.elHP = document.getElementById(`health-${name}`);
-                  this.elProgressbar = document.getElementById(`progressbar-${name}`);
-                  this.namePlayer = document.getElementById(`name-${name}`);
-                  this.imgPlayer = document.getElementById(`img-${name}`);
-              }
-          }
-
           export {$getElById, random, tapCounting, minmaxDamage, selectorsM };
           ```
