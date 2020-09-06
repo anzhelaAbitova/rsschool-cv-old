@@ -25,7 +25,10 @@
         Examples of my code:
           ```javascript
           const $getElById = (id) => document.getElementById(id);
+          ```
+          ```
           const random = (num) => Math.ceil(Math.random() * num);
+          ```
           function tapCounting(btn, tapLimit){
               let count = 0;
               return function(){
@@ -37,5 +40,4 @@
                   return count;
               }
           }
-          export {$getElById, random, tapCounting, minmaxDamage, selectorsM };
           ```
